@@ -9,9 +9,9 @@ export default function Hero() {
                 <div>
                     <h1 className="text-4xl md:text-5xl font-bold">Professional Virtual Assistant<br /><span className="text-brand-accent">organized, creative, and reliable.</span></h1>
                     <p className="mt-6 text-lg">I help entrepreneurs and small teams stay focused on growth by handling the time-consuming tasks that slow you down.</p>
-                    <div className="mt-6 flex gap-4">
-                        <Link to='/contact' className="px-6 py-3 text-white font-bold bg-primary-900 hover:bg-primary-800 rounded-lg shadow">Consultation✅</Link>
-                        <Link to='/services' className="px-6 py-3 text-white font-bold bg-primary-900 hover:bg-primary-800 rounded-lg shadow">Services🔎</Link>
+                    <div className="mt-6 flex flex-col md:flex-row md:gap-4">
+                        <Link to='/contact' className="px-6 py-3 text-white font-bold bg-primary-900 hover:bg-primary-800 rounded-lg shadow">Book a Consultation✅</Link>
+                        <Link to='/services' className="px-6 py-3 text-white font-bold bg-primary-900 hover:bg-primary-800 rounded-lg shadow">View Services🔎</Link>
                     </div>
                 </div>
                 <div className="rounded-lg shadow-lg overflow-hidden h-80 w-80">
