@@ -2,9 +2,9 @@ import React from 'react'
 
 
 const plans = [
-    { name: 'Basic', price: '$250/monthly', items: ['10 hours support', 'Email management', 'Scheduling'] },
-    { name: 'Standard', price: '$600/monthly', items: ['30 hours support', 'Social media content', 'Basic bookkeeping'] },
-    { name: 'Premium', price: '$1200/monthly', items: ['80 hours support', 'Full admin + creative', 'Priority support'] }
+    { name: 'Basic', price: '$250', items: ['10 hours support', 'Email management', 'Scheduling'] },
+    { name: 'Standard', price: '$600', items: ['30 hours support', 'Social media content', 'Basic bookkeeping'] },
+    { name: 'Premium', price: '$1200', items: ['80 hours support', 'Full admin + creative', 'Priority support'] }
 ]
 
 

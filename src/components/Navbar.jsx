@@ -41,11 +41,11 @@ export default function Navbar() {
 
                 <div className="max-w-6xl lmpx-4 py-3 flex justify-between items-center">
                     {/* Hamburger Icon */}
-                    <button 
-                    className="md:hidden text-gray-800 focus:outline-none"
-                    onClick={() => setIsOpen(!isOpen)}
+                    <button
+                        className="md:hidden text-gray-800 focus:outline-none"
+                        onClick={() => setIsOpen(!isOpen)}
                     >
-                    {isOpen ? <X size={28} /> : <Menu size={28} />}
+                        {isOpen ? <X size={28} /> : <Menu size={28} />}
                     </button>
                 </div>
 
@@ -53,10 +53,10 @@ export default function Navbar() {
                 {isOpen && (
                     <div className="md:hidden shadow-inner fixed w-40 top-20 right-0 z-10 flex flex-col text-black rounded-lg max-h-80 overflow-auto bg-primary-200 p-2">
                         {links.map(([to, label]) => (
-                        <NavLink key={to} to={to} className={({ isActive }) => `text-sm p-4 bg-primary-600 my-1 hover:bg-primary-800  rounded-lg ${isActive ? 'text-black font-semibold' : 'text-black'}`}>
-                            {label}
-                        </NavLink>
-                    ))}
+                            <NavLink key={to} to={to} className={({ isActive }) => `text-sm p-4 bg-primary-600 my-1 hover:bg-primary-800  rounded-lg ${isActive ? 'text-black font-semibold' : 'text-black'}`}>
+                                {label}
+                            </NavLink>
+                        ))}
                     </div>
                 )}
 
