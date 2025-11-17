@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import { testimonials } from '../data/sampleData'
+import Services from './Services'
 
 
 export default function Home() {
@@ -27,20 +27,7 @@ export default function Home() {
                 </div>
             </section>
 
-
-            <section className="container max-w-md mt-5 py-12 bg-primary-200 shadow-lg md:max-w-6xl lg:mt-10 rounded-xl">
-                <h2 className="text-2xl font-semibold mb-6">Client Testimonials</h2>
-                <div className="grid md:grid-cols-2 gap-6">
-                    {testimonials.map(t => (
-                        <div key={t.name} className="p-6 bg-primary-300 rounded-xl">
-                            <div className="italic">"{t.quote}"</div>
-                            <div className="mt-3 font-semibold">{t.name}</div>
-                            <div className="text-sm text-gray-500">{t.role}</div>
-                        </div>
-                    ))}
-                </div>
-            </section>
-
+            <Services />
 
         </main>
     )

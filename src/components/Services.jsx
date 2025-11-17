@@ -5,7 +5,7 @@ import Card from '../components/Card'
 
 export default function Services() {
     return (
-        <div className="container py-12">
+        <div className="container py-12 mt-20">
             <h1 className="text-3xl font-semibold mb-6">Services</h1>
             <div className="grid md:grid-cols-3 gap-6">
                 {services.map(s => (

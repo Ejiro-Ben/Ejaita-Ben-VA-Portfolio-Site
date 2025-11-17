@@ -2,7 +2,7 @@ import React from 'react'
 
 
 export default function Portfolio() {
-    // replace with live projects/screenshots
+    // Replace with live projects/screenshots
     const projects = new Array(6).fill(0).map((_, i) => ({ id: i, title: `Project ${i + 1}` }))
     return (
         <div className="container py-12 mt-20">
