@@ -23,7 +23,7 @@ export default function About() {
                             I’m passionate about making life easier for my clients, adding value wherever possible,
                             and delivering work that is thoughtful, professional, and human.</p>
 
-                        <a href="/my-cv.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
                             <div className='bg-primary-600 text-white mt-2 md:mt-96 rounded-full flex justify-center p-3'>
                                 👩‍💻 My Resume
                             </div>
