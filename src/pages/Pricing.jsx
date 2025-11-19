@@ -20,7 +20,6 @@ export default function Pricing() {
                         <ul className="text-sm space-y-2">
                             {p.items.map(i => <li key={i}>• {i}</li>)}
                         </ul>
-                        <button className="mt-6 px-4 py-2 bg-brand-accent text-white rounded">Choose</button>
                     </div>
                 ))}
             </div>
