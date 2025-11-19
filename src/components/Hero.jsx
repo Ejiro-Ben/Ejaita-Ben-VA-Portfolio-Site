@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Hero() {
     return (
-        <section className="py-20 mt-20 bg-primary-300 felx flex-row">
+        <section className="py-20 mt-10 bg-primary-300 felx flex-row">
             <div className="container grid md:grid-cols-2 gap-10 items-center">
                 <div>
                     <h1 className="text-4xl md:text-5xl font-bold">Professional Virtual Assistant<br /><span className="text-brand-accent">organized, creative, and reliable.</span></h1>

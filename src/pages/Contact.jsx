@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className="container py-12 mt-20">
+        <div className="container py-12 mt-16">
             <h1 className="text-3xl font-semibold mb-6">Contact</h1>
             <div className="grid md:grid-cols-2 gap-8">
                 <form

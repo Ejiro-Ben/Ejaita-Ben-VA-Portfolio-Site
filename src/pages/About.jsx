@@ -5,7 +5,7 @@ import { Briefcase, Palette, Code2, Settings } from "lucide-react";
 
 export default function About() {
     return (
-        <div className="container py-12 mt-20">
+        <div className="container py-12 mt-10">
             <div className="mt-6 grid md:grid-cols-2 gap-8">
                 <Card>
                     <section className='py-6'>

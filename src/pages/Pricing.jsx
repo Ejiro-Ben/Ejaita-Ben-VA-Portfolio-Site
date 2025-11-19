@@ -10,7 +10,7 @@ const plans = [
 
 export default function Pricing() {
     return (
-        <div className="container py-12 pt-40">
+        <div className="container py-12 mt-16">
             <h1 className="text-3xl font-semibold mb-6">Pricing & Packages</h1>
             <div className="grid md:grid-cols-3 gap-6">
                 {plans.map(p => (
