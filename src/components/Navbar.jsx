@@ -18,7 +18,7 @@ export default function Navbar() {
         <header className="fixed w-full bg-primary-500 dark:bg-primary-900 shadow">
             <div className="container flex items-center justify-between py-4">
                 <Link to='/' className="flex items-center gap-3">
-                    <div className="w-20 h-20 rounded-md bg-[url('/pic-1.jpg')] bg-cover bg-center shadow" />
+                    <div className="w-12 h-12 rounded-full bg-[url('/pic-1.jpg')] bg-cover bg-center shadow" />
                     <div>
                         <div className="text-lg font-semibold">Ejaita Ben</div>
                         <div className="text-sm ">Professional Virtual Assistant</div>
